@@ -11,8 +11,3 @@ spring:
 logging:
     file: logs/AdminService.log
     level: debug
-eureka:
-  client:
-    service-url:
-      defaultZone: http://canaban.ddns.net:8004/eureka
-    eureka-connection-idle-timeout-seconds: 1
